@@ -21,6 +21,8 @@ body {
   background: $white;
   font: 13.34px $helvetica;
   color: $darkGray;
+  *font-size: small;
+  text-align: center;
 }
 
 .container {
@@ -44,26 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-// h1 {
-//   font-size: 30px;
-//   a {
-//     color: inherit;
-//   }
-// }
-
-// h2 {
-//   font-size: 24px;
-// }
-
-// h3 {
-//   font-size: 20px;
-// }
-
-// h4 {
-//   font-size: 18px;
-//   color: $gray;
-// }
-
 p {
   margin: 15px 0;
 }
@@ -72,9 +54,6 @@ a {
   color: $blue;
   text-decoration: none;
   cursor: pointer;
-  &:visited {
-    color: #a0a;
-  };
   &:hover, &:active {
     color: $blue;
   };
@@ -250,13 +229,19 @@ ul.posts {
 }
 
 ul.posts li {
-line-height: 1.75em;
+  line-height: 1.75em;
 }
 
 ul.posts span {
-color: #aaa;
-font-family: Monaco, "Courier New", monospace;
-font-size: 80%;
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+ul.posts a {
+  &:visited {
+    color: #a0a;
+  };
 }
 
 // .posts > .post {
