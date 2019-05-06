@@ -18,8 +18,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: $white;
+  font: 13.34px $helvetica;
   color: $darkGray;
 }
 
@@ -44,25 +44,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
-}
+// h1 {
+//   font-size: 30px;
+//   a {
+//     color: inherit;
+//   }
+// }
 
-h2 {
-  font-size: 24px;
-}
+// h2 {
+//   font-size: 24px;
+// }
 
-h3 {
-  font-size: 20px;
-}
+// h3 {
+//   font-size: 20px;
+// }
 
-h4 {
-  font-size: 18px;
-  color: $gray;
-}
+// h4 {
+//   font-size: 18px;
+//   color: $gray;
+// }
 
 p {
   margin: 15px 0;
@@ -71,10 +71,13 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+  &:visited {
+    color: #a0a;
+  };
   &:hover, &:active {
     color: $blue;
-  }
+  };
 }
 
 ul, ol {
