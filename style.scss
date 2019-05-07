@@ -19,7 +19,6 @@ html {
 
 body {
   background: $white;
-  //font: $helvetica;
   font: 13.34px helvetica, arial, clean, sans-serif;
   font-size: 15px;
   color: $darkGray;
@@ -202,6 +201,9 @@ img {
 
   .site-name a {
     color: #a00;
+    &:hover {
+      color: $black;
+    }
   }
 
 .site-description {
