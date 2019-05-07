@@ -19,10 +19,10 @@ html {
 
 body {
   background: $white;
-  font: 13.34px $helvetica;
+  //font: $helvetica;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  font-size: 15px;
   color: $darkGray;
-  *font-size: small;
-  text-align: center;
 }
 
 .container {
@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
+  font-size: 100%;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -51,12 +52,15 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #00a;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $black;
   };
+  &:visited {
+    color: #a0a;
+  }
 }
 
 ul, ol {
@@ -128,6 +132,19 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
+
+//
+// .site-content
+//
+
+.site-content {
+  text-align: justify;
+  // width: 42em;
+  // margin: 3em auto 2em auto;
+  // line-height: 1.5em;
+}
+
+
 //
 // .masthead
 //
@@ -137,8 +154,9 @@ img {
 }
 
 .masthead {
+  margin-bottom: 30px;
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  // border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -173,14 +191,17 @@ img {
 }
 
 .site-name {
+  color: #a00;
   margin: 0;
-  color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: bold;
   letter-spacing: 1px;
 }
+
+  .site-name a {
+    color: #a00;
+  }
 
 .site-description {
   margin: -5px 0 0 0;
@@ -226,23 +247,19 @@ nav {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
+  padding: 0;
+  margin: 0;
 }
 
-ul.posts li {
-  line-height: 1.75em;
-}
+  ul.posts li {
+    line-height: 1.75em;
+  }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-ul.posts a {
-  &:visited {
-    color: #a0a;
-  };
-}
+  ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
 
 // .posts > .post {
 //   padding-bottom: 2em;
