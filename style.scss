@@ -100,10 +100,6 @@ img {
   max-width: none;
 }
 
-.date {
-  color: #aaa;
-}
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -274,6 +270,19 @@ ul.posts {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.date {
+  float: left;
+}
+
+.words {
+  float: right;
+}
+
+.info-line {
+  color: #aaa;
+  overflow: hidden;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
