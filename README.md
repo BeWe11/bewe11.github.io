@@ -23,7 +23,7 @@ To revert the protection:
 The following directories and their contents are Copyright Benjamin Weigang.
 You may not reuse anything therein without my permission:
 
-* \_posts/
+* posts/
 * images/
 
 All other directories and files are MIT Licensed.
