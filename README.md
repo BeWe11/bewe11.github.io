@@ -12,9 +12,11 @@ text.
 
 To revert the protection:
 * Remove the current root index.html file
-* Move the index.html file from the password protected folder to root
-* Change the link of the page title back to the root index.html file (it
-  currently points to the protected one)
+* Move the content of the password protected folder to root
+* in `defaults.html` change the link of the page title back to the root
+  index.html file (it currently points to the protected one)
+* Use default layout in page.html again, it's currently deactivated to prevent
+  unprotected links on the 404 page
 
 ## License
 
