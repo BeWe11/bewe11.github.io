@@ -1,7 +1,7 @@
 # Personal Website
 
 Based on the [jekyll-now](https://github.com/barryclark/jekyll-now) template
-and inspired by [mojomno's site](https://github.com/mojombo/mojombo.github.io).
+and inspired by [mojombo's site](https://github.com/mojombo/mojombo.github.io).
 
 ## License
 
