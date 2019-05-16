@@ -138,6 +138,12 @@ blockquote {
     clear: both;
 }
 
+img + em {
+  display: block;
+  text-align: center;
+  font-size: 80%;
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/

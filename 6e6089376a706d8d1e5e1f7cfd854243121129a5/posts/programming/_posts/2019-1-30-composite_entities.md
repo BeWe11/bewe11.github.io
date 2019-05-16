@@ -143,7 +143,7 @@ Using regular expressions offers a lot of flexibility in what patterns can match
 which produces two matches in the example query:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*eJ3QxZUEPO9-oBdig1L8RQ.png)
-<span class="figcaption_hack">Generated with [regex101.com](https://regex101.com/r/yoA3YC/1/)</span>
+*Generated with [regex101.com](https://regex101.com/r/yoA3YC/1/)*
 
 Both matches fully contain three entities, therefore two distinct composite
 entities will be created containing the respective base entities.
