@@ -59,15 +59,9 @@ p {
 }
 
 a {
-  color: #00a;
-  text-decoration: none;
+  color: $darkGray;
+  text-decoration: underline;
   cursor: pointer;
-  &:hover, &:active {
-    color: $black;
-  };
-  &:visited {
-    color: #a0a;
-  }
 }
 
 ul, ol {
@@ -215,6 +209,7 @@ blockquote {
 
   .site-name a {
     color: #a00;
+    text-decoration: none;
     &:hover {
       color: $black;
     }
@@ -280,6 +275,10 @@ ul.posts {
     font-family: "Courier";
     font-size: 85%;
     vertical-align: top;
+  }
+
+  ul.posts a {
+    text-decoration: none;
   }
 
 .wrapper-footer {
