@@ -83,6 +83,10 @@ ol {
   list-style-type: decimal;
 }
 
+li {
+  margin: 0 0 10px 0;
+}
+
 ol ul, ul ol, ul ul, ol ol {
   margin: 0;
 }
