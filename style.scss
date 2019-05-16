@@ -277,8 +277,9 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
+    font-family: "Courier";
+    font-size: 85%;
+    vertical-align: top;
   }
 
 .wrapper-footer {
@@ -304,6 +305,8 @@ footer {
 .info-line {
   color: #aaa;
   overflow: hidden;
+  font-size: 85%;
+  font-family: "Courier";
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
