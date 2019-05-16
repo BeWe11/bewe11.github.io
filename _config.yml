@@ -52,10 +52,16 @@ baseurl: ""
 
 # Name mappings of post subfolders
 category_mappings:
+  - dir_name: programming
+    display_name: Programming
   - dir_name: short_stories
     display_name: Short Stories
+  - dir_name: flash_fiction
+    display_name: Flash Fiction
   - dir_name: non_fiction
     display_name: Non-Fiction
+  - dir_name: poems
+    display_name: Poems
 
 #
 # !! You don't need to change any of the configuration flags below !!
