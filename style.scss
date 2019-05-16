@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 1em 0 1em;
   padding: 0;
 
   // @include mobile {
@@ -55,7 +55,7 @@ h2 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 1em 0;
 }
 
 a {
@@ -71,7 +71,7 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 1em 0;
   padding-left: 30px;
 }
 
@@ -84,7 +84,7 @@ ol {
 }
 
 li {
-  margin: 0 0 10px 0;
+  margin: 0 0 0.5em 0;
 }
 
 ol ul, ul ol, ul ul, ol ol {
@@ -267,13 +267,12 @@ nav {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
   padding: 0;
   margin: 0;
 }
 
   ul.posts li {
-    line-height: 1.75em;
+    line-height: 1.50em;
   }
 
   ul.posts span {
