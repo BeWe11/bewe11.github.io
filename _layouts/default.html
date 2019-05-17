@@ -51,6 +51,8 @@
     <!-- </div> -->
 
     {% include target_blank.html %}
-    {% include analytics.html %}
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
   </body>
 </html>
