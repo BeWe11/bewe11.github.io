@@ -125,7 +125,7 @@ Pattern matching is implemented through regular expressions. In the original que
 
 will be transformed into
 
-> I am looking for a [@color](http://twitter.com/color) [@product](http://twitter.com/product) with [@pattern](http://twitter.com/pattern) and [@pattern](http://twitter.com/pattern) [@color](http://twitter.com/color) [@product](http://twitter.com/product).
+> I am looking for a @color @product with @pattern and @pattern @color @product.
 
 All defined patterns are matched against this string. If a pattern matches, entities that are fully contained in the match will be placed inside a composite entity under the pattern’s name.
 
@@ -142,8 +142,7 @@ Using regular expressions offers a lot of flexibility in what patterns can match
 ```
 which produces two matches in the example query:
 
-![](https://cdn-images-1.medium.com/max/1600/1*eJ3QxZUEPO9-oBdig1L8RQ.png)
-*Generated with [regex101.com](https://regex101.com/r/yoA3YC/1/)*
+{% include image.html name="matched_patterns.png" source="https://regex101.com/r/yoA3YC/1/" %}
 
 Both matches fully contain three entities, therefore two distinct composite
 entities will be created containing the respective base entities.

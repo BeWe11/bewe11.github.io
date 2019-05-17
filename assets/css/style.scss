@@ -101,6 +101,16 @@ img {
   max-width: 100%;
 }
 
+figure img {
+  vertical-align: top;
+}
+
+figure figcaption {
+  display: block;
+  text-align: center;
+  font-size: 80%;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
