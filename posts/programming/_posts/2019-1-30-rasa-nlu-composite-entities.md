@@ -162,4 +162,4 @@ This pattern will match any entity that is preceded by the word “without” an
 
 ---
 
-There are countless possibilities of how to use pattern based composite entities in your pipeline. Not everyone requires them, but we surely missed composites when we switched from Dialogflow to Rasa NLU. Let us know if you can make use of this component as well!
+There are countless possibilities of how to use pattern based composite entities in your pipeline. Not everyone requires them, but we surely missed composites when we switched from Dialogflow to Rasa NLU.
