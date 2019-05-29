@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="info-line">
+    <div class="date">
+      {{ page.date | date_to_long_string }}
+    </div>
+
+    <div class="words">
+      {{content | number_of_words}} words
+    </div>
+  </div>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+</article>
