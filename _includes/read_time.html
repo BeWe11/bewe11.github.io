@@ -1,0 +1,9 @@
+{% assign words_per_minute = 250.0 %}
+
+{% assign words = content | number_of_words %}
+
+{% if words < words_per_minute %}
+    1 minute
+{% else %}
+    {{ words | divided_by: words_per_minute | round }} minutes
+{% endif %}
