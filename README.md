@@ -24,7 +24,7 @@ allows mapping of post directories to displayed category names for all posts
 inside these directories. Every category whose directory contains no posts will
 not be displayed.
 
-To force a line break, end a line with to spaces.
+To force a line break, end a line with two spaces.
 
 ## License
 
