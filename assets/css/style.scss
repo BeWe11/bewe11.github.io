@@ -17,6 +17,19 @@ html {
   font-size: 100%;
 }
 
+
+// Fix issue that page jumps a little to the left when the scrollbar appears
+// see https://aykevl.nl/2014/09/fix-jumping-scrollbar
+// Content width is 600px, we disable this fix at 750px to avoid additional
+// margin at small window widths
+@media screen and (min-width: 750px) {
+  html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+  }
+}
+
+
 body {
   background: $white;
   font: 13.34px helvetica, arial, clean, sans-serif;
