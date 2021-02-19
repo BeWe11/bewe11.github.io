@@ -37,8 +37,8 @@ footer-links:
 # You can find your shortname on the Settings page of your Disqus account
 disqus: www-benjaminweigang-com
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-140433559-1
+# Enter your plausible.io URL
+plausible_url: benjaminweigang.com
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
