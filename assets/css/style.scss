@@ -35,6 +35,9 @@ body {
   font: 13.34px helvetica, arial, clean, sans-serif;
   font-size: 16px;
   color: $darkGray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -179,6 +182,7 @@ img + em {
 .site-content {
   text-align: justify;
   line-height: 1.5em;
+  flex: 1;
 }
 
 
@@ -187,7 +191,7 @@ img + em {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 .masthead {
@@ -310,13 +314,18 @@ ul.posts {
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  // border-bottom: 1px solid #ddd;
+  // background-color: $lightGray;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+  font-size: 0.8em;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .date {
