@@ -4,7 +4,7 @@ title: Adding Composite Entities to Rasa NLU
 lang: en
 ---
 
-[Dialogflow](https://dialogflow.com/docs/entities/developer-entities#developer_composite) has them. [wit.ai](https://medium.com/wit-ai/reintroducing-composite-entities-c361797ca202) has them. Rasa NLU doesn’t. Composite entities are tremendously useful when working with complex queries that contain more than one piece of information. At [Dialogue Technologies](https://www.dialogue-technologies.com/) we have implemented composite entities as a Rasa NLU component that can be dropped into any existing pipeline without having to rewrite training examples. We use this feature in our Dialogue Engine, a platform for conversational commerce. The component is [freely available](https://github.com/BeWe11/rasa_composite_entities) on Github.
+Composite entities are tremendously useful when working with complex queries that contain more than one piece of information. At [Dialogue Technologies](https://www.dialogue-technologies.com/) we have implemented composite entities as a Rasa NLU component that can be dropped into any existing pipeline without having to rewrite training examples. We use this feature in our Dialogue Engine, a platform for conversational commerce. The component is [freely available](https://github.com/BeWe11/rasa_composite_entities) on Github.
 
 ## What are composite entities (and why are they useful)?
 
